@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+.body-presentation {
+  background-color: bisque;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.body-photo-phrase {
+  background-color: burlywood;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+.body-location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: antiquewhite;
+}

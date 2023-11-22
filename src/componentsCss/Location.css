@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap");
+
+.title-where-when {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}
+.title-where-when h1 {
+  font-weight: 800;
+  font-size: 45px;
+}
+.information {
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  font-family: "Bitter", serif;
+}
+.title-party {
+  padding-left: 30px;
+}
+.title-party h2 {
+  text-decoration: underline;
+}
+.img-salon {
+  text-align: center;
+}
+.img-salon h3 {
+  font-weight: 300;
+}
+.name-salon {
+  text-align: center;
+}
+.name-salon h4 {
+  font-weight: 300;
+}
+.information-when-where {
+  padding-left: 30px;
+}
+.information-when-where h3 {
+  font-weight: 300;
+}
+.information-when-where h3 span {
+  text-decoration: underline;
+  font-weight: 800;
+}
+.see-location {
+  text-align: center;
+  margin-top: 20px;
+}
+.see-location a {
+  background-color: bisque;
+  color: black;
+  padding: 10px;
+  border-radius: 15px;
+}

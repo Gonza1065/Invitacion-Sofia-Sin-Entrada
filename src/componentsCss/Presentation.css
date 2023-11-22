@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+.title {
+  text-align: center;
+  font-family: "Bitter", serif;
+}
+.title h1 {
+  margin: 0;
+}
+.name-sofia {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Dancing Script", cursive;
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+.name-sofia h1 {
+  margin: 0;
+  padding: 0;
+}
+.count {
+  font-family: "Bitter", serif;
+  text-align: center;
+}
