@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@600&display=swap");
+
+.title-itinerary {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+}
+.title-itinerary h1 {
+  font-size: 45px;
+}
+.schedule-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: bisque;
+  margin: 30px;
+}
+.information-schedule {
+  font-family: "Bitter", serif;
+  padding-top: 8px;
+  border-left: 1px solid black;
+}
+.information-schedule h3 {
+  font-size: 17px;
+  margin-left: 25px;
+}
+.icon-glass {
+  text-align: center;
+}
+.icon-glass svg {
+  height: 30px;
+  padding-top: 20px;
+}
+.icon-utensils {
+  text-align: center;
+}
+.icon-utensils svg {
+  height: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.information-reception {
+  padding-bottom: 0.1px;
+}
