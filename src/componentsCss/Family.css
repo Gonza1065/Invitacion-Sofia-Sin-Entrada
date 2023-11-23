@@ -22,10 +22,10 @@
   text-align: center;
   font-family: "Bitter", serif;
 }
-.img-family h4 {
-  background-color: rgb(245, 132, 255);
-  margin-left: 50px;
-  margin-right: 50px;
-  padding: 10px;
-  border-radius: 20px;
+.img-family img {
+  height: 200px;
+  border-radius: 800px;
+}
+.relatives {
+  font-size: 10px;
 }

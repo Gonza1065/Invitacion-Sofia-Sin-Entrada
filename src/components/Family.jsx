@@ -10,7 +10,14 @@ export function Family() {
       </div>
       <div className="photos-family">
         <div className="img-family">
-          <h4>(Foto Madre)</h4>
+          <img
+            src="https://res.cloudinary.com/dn2vrx9eu/image/upload/v1700781682/WhatsApp_Image_2023-11-23_at_20.15.54_1_rrwu5l.jpg"
+            alt=""
+          />
+          <div className="relatives">
+            <h1>Mary</h1>
+            <h2>- Mi Abuela -</h2>
+          </div>
         </div>
         <div className="img-family">
           <h4>(Foto Padre)</h4>

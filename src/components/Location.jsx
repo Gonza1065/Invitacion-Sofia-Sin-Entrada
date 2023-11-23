@@ -22,7 +22,7 @@ export function Location() {
         </div>
         <div className="information-when-where">
           <h3>
-            <span>Cuándo</span>: 20 de abril 2024 21 hrs.
+            <span>Día</span>: 20 de abril de 2024 a las 21 hrs.
           </h3>
           <h3>
             <span>Dirección</span>: Callejón Fernandes 730, San Martín,
