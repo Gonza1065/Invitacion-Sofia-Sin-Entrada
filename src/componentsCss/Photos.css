@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+.title-photos {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}
+.title-photos h1 {
+  font-size: 45px;
+}
+.slider {
+  width: 85%;
+  margin-left: 28px;
+  padding-bottom: 50px;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.img img {
+  height: 200px;
+}

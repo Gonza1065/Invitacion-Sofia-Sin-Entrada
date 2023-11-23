@@ -4,14 +4,14 @@ body {
   scroll-snap-type: y mandatory;
 }
 .body-presentation {
-  background-color: bisque;
+  background-color: rgb(245, 132, 255);
   min-height: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 .body-photo-phrase {
-  background-color: burlywood;
+  background-color: rgb(247, 155, 255);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,5 +21,23 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: antiquewhite;
+  background-color: rgb(251, 203, 255);
+}
+.body-photos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(247, 155, 255);
+}
+.body-family {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(251, 203, 255);
+  padding-top: 30px;
+}
+.body-gifts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

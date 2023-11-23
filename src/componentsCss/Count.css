@@ -12,7 +12,7 @@
 .number-minutes,
 .number-seconds {
   font-size: 20px;
-  background-color: bisque;
+  background-color: rgb(247, 155, 255);
   padding: 10px;
   border-radius: 15px;
 }
