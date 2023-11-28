@@ -2,7 +2,7 @@ import { faPause, faPlay } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import "../componentsCss/Music.css";
-import audioFile from "../song/Y2meta.app - Dua Lipa - New Rules (Official Music Video) (128 kbps).mp3";
+import audioFile from "../song/Y2meta.app - Dua Lipa - New Rules (Official Lyric Video) (128 kbps).mp3";
 export function Music() {
   const [isPlaying, setPlaying] = useState(false);
   const audioRef = React.createRef();

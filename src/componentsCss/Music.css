@@ -1,7 +1,7 @@
 .music-player {
   position: fixed;
   text-align: end;
-  left: 88%;
+  left: 85%;
   top: 10%;
 }
 .btn-play-pause button {
@@ -9,6 +9,7 @@
   border-style: none;
 }
 .icon-play-pause svg {
-  height: 40px;
+  height: 30px;
   color: white;
+  padding: 3px;
 }
