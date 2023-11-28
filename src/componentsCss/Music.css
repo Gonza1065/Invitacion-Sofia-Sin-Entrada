@@ -1,0 +1,14 @@
+.music-player {
+  position: fixed;
+  text-align: end;
+  left: 88%;
+  top: 10%;
+}
+.btn-play-pause button {
+  background-color: darkorchid;
+  border-style: none;
+}
+.icon-play-pause svg {
+  height: 40px;
+  color: white;
+}

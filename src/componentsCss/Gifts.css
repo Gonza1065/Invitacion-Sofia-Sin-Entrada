@@ -18,7 +18,31 @@
 .data {
   text-align: center;
   font-family: "Bitter", serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .data h2 {
   font-weight: 300;
+}
+.data button {
+  padding: 10px;
+  font-size: 20px;
+  border-style: none;
+  background-color: darkorchid;
+  color: white;
+  border-radius: 10px;
+  font-family: "Bitter", serif;
+}
+.img-gift {
+  text-align: center;
+}
+.img-gift img {
+  height: 280px;
+}
+.icon-gift {
+  padding-top: 20px;
+  text-align: center;
+}
+.icon-gift svg {
+  height: 30px;
 }
