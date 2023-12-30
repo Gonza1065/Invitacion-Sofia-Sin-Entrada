@@ -42,3 +42,9 @@ body {
   justify-content: center;
   background-color: #0040ff;
 }
+.body-assist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #042279;
+}

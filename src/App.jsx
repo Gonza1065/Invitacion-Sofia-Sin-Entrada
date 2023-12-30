@@ -1,5 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
+import { Assist } from "./components/Assist";
 import { Family } from "./components/Family";
 import { Gifts } from "./components/Gifts";
 import { Itinerary } from "./components/Itinerary";
@@ -37,6 +38,11 @@ function App() {
         </div>
         <div className="body-gifts">
           <Gifts />
+        </div>
+        <div className="body-assist">
+          <BrowserRouter>
+            <Assist />
+          </BrowserRouter>
         </div>
       </main>
     </>
