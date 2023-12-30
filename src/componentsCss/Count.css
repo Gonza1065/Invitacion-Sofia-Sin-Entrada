@@ -12,9 +12,10 @@
 .number-minutes,
 .number-seconds {
   font-size: 20px;
-  background-color: rgb(247, 155, 255);
+  background-color: #0034cf;
   padding: 10px;
   border-radius: 15px;
+  color: white;
 }
 .days,
 .hours,
@@ -24,4 +25,6 @@
   font-weight: 800;
   text-align: center;
   font-size: 10px;
+  color: white;
+  font-weight: 300;
 }

@@ -9,7 +9,7 @@ export function Photos() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    fade: true, // Habilitar la transición de desvanecimiento
+    fade: true,
   };
   return (
     <>
@@ -20,19 +20,19 @@ export function Photos() {
         <Slider {...settings}>
           <div className="img">
             <img
-              src="https://res.cloudinary.com/dn2vrx9eu/image/upload/v1665614528/cld-sample-2.jpg"
+              src="https://res.cloudinary.com/dn2vrx9eu/image/upload/v1703973028/WhatsApp_Image_2023-12-27_at_21.27.52_2_mm3pqc.jpg"
               alt=""
             />
           </div>
           <div className="img">
             <img
-              src="https://res.cloudinary.com/dn2vrx9eu/image/upload/v1665614528/cld-sample.jpg"
+              src="https://res.cloudinary.com/dn2vrx9eu/image/upload/v1703973028/WhatsApp_Image_2023-12-27_at_21.27.50_aqngv4.jpg"
               alt=""
             />
           </div>
           <div className="img">
             <img
-              src="https://res.cloudinary.com/dn2vrx9eu/image/upload/v1665614518/samples/ecommerce/leather-bag-gray.jpg"
+              src="https://res.cloudinary.com/dn2vrx9eu/image/upload/v1703973027/WhatsApp_Image_2023-12-27_at_21.27.51_d8nafy.jpg"
               alt=""
             />
           </div>

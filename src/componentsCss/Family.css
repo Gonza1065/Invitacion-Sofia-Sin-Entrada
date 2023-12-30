@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 .title-family {
   text-align: center;
+  color: white;
 }
 .title-family h1 {
   font-family: "Dancing Script", cursive;
@@ -11,6 +12,7 @@
 .thanks {
   font-family: "Bitter", serif;
   text-align: center;
+  color: white;
 }
 .thanks h2 {
   font-weight: 400;
@@ -22,10 +24,14 @@
   text-align: center;
   font-family: "Bitter", serif;
 }
+.img-family {
+  padding: 30px;
+}
 .img-family img {
   height: 200px;
   border-radius: 800px;
 }
 .relatives {
   font-size: 10px;
+  color: white;
 }

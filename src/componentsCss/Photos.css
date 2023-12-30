@@ -3,6 +3,7 @@
 .title-photos {
   text-align: center;
   font-family: "Dancing Script", cursive;
+  color: white;
 }
 .title-photos h1 {
   font-size: 45px;
@@ -18,5 +19,5 @@
   text-align: center;
 }
 .img img {
-  height: 200px;
+  height: 230px;
 }

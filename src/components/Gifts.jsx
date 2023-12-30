@@ -34,8 +34,10 @@ export function Gifts() {
       <div className="data">
         <button onClick={toggleData}>Ver datos</button>
         <animated.div style={dataAnimation}>
-          <p>Banco: xxxxxx</p>
-          <p>Mercado Pago: xxxxxx</p>
+          <p>CVU: 0000003100033665909298</p>
+          <p>Alias: miursofia16</p>
+          <p>CUIT/CUIL: 27493356262</p>
+          <p>Mercado Pago</p>
         </animated.div>
       </div>
     </>

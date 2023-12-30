@@ -5,6 +5,7 @@
 .title-where-when {
   text-align: center;
   font-family: "Dancing Script", cursive;
+  color: white;
 }
 .title-where-when h1 {
   font-weight: 800;
@@ -53,8 +54,8 @@
   margin-top: 20px;
 }
 .see-location a {
-  background-color: rgb(251, 203, 255);
-  color: black;
+  background-color: #0066ff;
+  color: white;
   font-weight: 700;
   padding: 10px;
   border-radius: 15px;

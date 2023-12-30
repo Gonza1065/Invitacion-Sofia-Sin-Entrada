@@ -4,14 +4,14 @@ body {
   scroll-snap-type: y mandatory;
 }
 .body-presentation {
-  background-color: rgb(245, 132, 255);
+  background-color: #042279;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 .body-photo-phrase {
-  background-color: rgb(247, 155, 255);
+  background-color: #002db3;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,23 +21,24 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgb(251, 203, 255);
+  background-color: #0040ff;
 }
 .body-photos {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgb(247, 155, 255);
+  background-color: #0040ff;
 }
 .body-family {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgb(251, 203, 255);
+  background-color: #2d62ff;
   padding-top: 30px;
 }
 .body-gifts {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: #0040ff;
 }

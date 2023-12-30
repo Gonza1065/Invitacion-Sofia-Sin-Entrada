@@ -15,15 +15,44 @@ export function Family() {
             alt=""
           />
           <div className="relatives">
-            <h1>Mary</h1>
             <h2>- Mi Abuela -</h2>
           </div>
         </div>
         <div className="img-family">
-          <h4>(Foto Padre)</h4>
+          <img
+            src="https://res.cloudinary.com/dn2vrx9eu/image/upload/v1703973649/WhatsApp_Image_2023-12-27_at_21.38.20_iz7te2.jpg"
+            alt=""
+          />
+          <div className="relatives">
+            <h2>- Mis papás - </h2>
+          </div>
         </div>
         <div className="img-family">
-          <h4>(Foto Hermanos/as)</h4>
+          <img
+            src="https://res.cloudinary.com/dn2vrx9eu/image/upload/v1703973649/WhatsApp_Image_2023-12-27_at_21.39.11_q4dp55.jpg"
+            alt=""
+          />
+          <div className="relatives">
+            <h2>- Mis padrinos - </h2>
+          </div>
+        </div>
+        <div className="img-family">
+          <img
+            src="https://res.cloudinary.com/dn2vrx9eu/image/upload/v1703973649/WhatsApp_Image_2023-12-27_at_21.39.40_cr6tvm.jpg"
+            alt=""
+          />
+          <div className="relatives">
+            <h2>- Mis hermanos - </h2>
+          </div>
+        </div>
+        <div className="img-family">
+          <img
+            src="https://res.cloudinary.com/dn2vrx9eu/image/upload/v1703973649/WhatsApp_Image_2023-12-30_at_17.51.25_fs83bt.jpg"
+            alt=""
+          />
+          <div className="relatives">
+            <h2>- Mis amigas - </h2>
+          </div>
         </div>
       </div>
     </>
