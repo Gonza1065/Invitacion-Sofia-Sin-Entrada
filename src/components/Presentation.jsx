@@ -7,7 +7,7 @@ export function Presentation() {
         <h1>- Mis XV años - </h1>
       </div>
       <div className="name-sofia">
-        <h1>Sofía</h1>
+        <h1>Sofia</h1>
       </div>
       <div className="count">
         <Count />

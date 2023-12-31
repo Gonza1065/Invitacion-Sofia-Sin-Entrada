@@ -20,7 +20,7 @@ export function Photos() {
         <Slider {...settings}>
           <div className="img">
             <img
-              src="https://res.cloudinary.com/dn2vrx9eu/image/upload/v1703973028/WhatsApp_Image_2023-12-27_at_21.27.52_2_mm3pqc.jpg"
+              src="https://res.cloudinary.com/dn2vrx9eu/image/upload/v1704043313/WhatsApp_Image_2023-12-31_at_12.30.37_s4rlpe.jpg"
               alt=""
             />
           </div>

@@ -7,7 +7,7 @@ export function Assist() {
         <h1>Confirmación de Asistencia</h1>
       </div>
       <div className="text-assist">
-        <h2>¿Podrías confirmar su asistencia a traves de este formulario?</h2>
+        <h2>¿Podría confirmar su asistencia a través de este formulario?</h2>
       </div>
       <div className="btn-confirm-assist">
         <Link>Confirmar Asistencia</Link>

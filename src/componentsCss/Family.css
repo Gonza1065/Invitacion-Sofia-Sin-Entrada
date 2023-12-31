@@ -35,3 +35,11 @@
   font-size: 10px;
   color: white;
 }
+.grand-mothers {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.grand-mothers img {
+  height: 150px;
+}

@@ -2,6 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import { Assist } from "./components/Assist";
 import { Family } from "./components/Family";
+import { Gallery } from "./components/Gallery";
 import { Gifts } from "./components/Gifts";
 import { Itinerary } from "./components/Itinerary";
 import { Location } from "./components/Location";
@@ -18,6 +19,9 @@ function App() {
         </div>
         <div className="body-presentation">
           <Presentation />
+        </div>
+        <div className="body-gallery">
+          <Gallery />
         </div>
         <div className="body-photo-phrase">
           <PhotoPhrase />

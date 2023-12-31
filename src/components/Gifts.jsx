@@ -30,6 +30,7 @@ export function Gifts() {
       </div>
       <div className="icon-gift">
         <FontAwesomeIcon icon={faEnvelope} />
+        <h1>- Regalo o Sobre - </h1>
       </div>
       <div className="data">
         <button onClick={toggleData}>Ver datos</button>

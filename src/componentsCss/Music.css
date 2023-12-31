@@ -3,13 +3,18 @@
   text-align: end;
   left: 85%;
   top: 10%;
+  z-index: 3;
+
 }
 .btn-play-pause button {
   background-color: #2d62ff;
   border-style: none;
+  z-index: 3;
 }
 .icon-play-pause svg {
   height: 30px;
   color: white;
   padding: 3px;
+  z-index: 3;
+
 }
