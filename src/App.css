@@ -39,14 +39,37 @@ body {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  margin-bottom: 500px;
+  padding-bottom: 500px;
 }
 .body-photo-phrase {
-  background-color: #002db3;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
+}
+.body-photo-phrase::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: -1; 
+}
+.body-photo-phrase::after {
+  background-image: url("https://res.cloudinary.com/dn2vrx9eu/image/upload/v1704045452/f77c749dc409230b343dc9e861e53693_v47upc.jpg");
+  content: "";
+  background-position: center;
+  background-attachment: scroll;
+  background-blend-mode: darken;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -2;
 }
 .body-location {
   position: relative;
@@ -83,17 +106,63 @@ body {
   background-color: #0040ff;
 }
 .body-family {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #2d62ff;
   padding-top: 30px;
 }
+.body-family::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: -1; 
+}
+.body-family::after {content: "";
+  background-image: url("https://res.cloudinary.com/dn2vrx9eu/image/upload/v1704045452/f77c749dc409230b343dc9e861e53693_v47upc.jpg");
+  background-position: center;
+  background-attachment: scroll;
+  background-blend-mode: darken;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -2;
+
+}
 .body-gifts {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #0040ff;
+}
+.body-gifts:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: -1; 
+}
+.body-gifts::after {
+  content: "";
+  background-image: url("https://res.cloudinary.com/dn2vrx9eu/image/upload/v1704045452/f77c749dc409230b343dc9e861e53693_v47upc.jpg");
+  background-position: center;
+  background-attachment: scroll;
+  background-blend-mode: darken;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -2;
 }
 .body-assist {
   display: flex;
