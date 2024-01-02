@@ -27,6 +27,29 @@
 .data h2 {
   font-weight: 300;
 }
+.entrance {
+  color: white;
+  font-family: "Bitter", serif;
+}
+.entrance h2 {
+  font-weight: 500;
+  text-decoration: underline;
+  margin-left: 40px;
+}
+.entrance h3 {
+  font-weight: 300;
+  text-decoration: none;
+  margin-left: 40px;
+}
+.info-entrance {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.info-entrance h3 {
+  margin: 10px;
+}
 .data button {
   padding: 10px;
   font-size: 20px;
