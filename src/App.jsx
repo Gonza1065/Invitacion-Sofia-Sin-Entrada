@@ -2,6 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import { Assist } from "./components/Assist";
 import { Family } from "./components/Family";
+import { Farewell } from "./components/Farewell";
 import { Gallery } from "./components/Gallery";
 import { Gifts } from "./components/Gifts";
 import { Itinerary } from "./components/Itinerary";
@@ -47,6 +48,9 @@ function App() {
           <BrowserRouter>
             <Assist />
           </BrowserRouter>
+        </div>
+        <div className="body-farewell">
+          <Farewell />
         </div>
       </main>
     </>

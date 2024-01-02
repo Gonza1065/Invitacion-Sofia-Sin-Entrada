@@ -10,7 +10,7 @@ export function Assist() {
         <h2>¿Podría confirmar su asistencia a través de este formulario?</h2>
       </div>
       <div className="btn-confirm-assist">
-        <Link to="https://docs.google.com/forms/d/e/1FAIpQLSeJCN5_0tiWuVWGPnNrpkGbYkUipHkEIReDkLJvlHhrnYQuaQ/viewform?usp=sf_link">
+        <Link to="https://docs.google.com/forms/d/e/1FAIpQLScUGVhQMf0lQcHvW5K17w7sspXC_2OQTjoxATyvAXJcdBWwxQ/viewform?usp=sf_link">
           Confirmar Asistencia
         </Link>
       </div>

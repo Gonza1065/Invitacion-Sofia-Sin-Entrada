@@ -169,4 +169,36 @@ body {
   flex-direction: column;
   justify-content: center;
   background-color: #042279;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.body-farewell {
+  position: relative;
+  min-height: 160vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.body-farewell::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: -1; 
+}
+.body-farewell::after {
+  content: "";
+  background-position: center;
+  background-image: url("https://res.cloudinary.com/dn2vrx9eu/image/upload/v1703973028/WhatsApp_Image_2023-12-27_at_21.27.51_2_lr7ncd.jpg");
+  background-attachment: scroll;
+  background-blend-mode: darken;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -2;
 }
