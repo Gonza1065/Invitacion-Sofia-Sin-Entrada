@@ -32,14 +32,6 @@ export function Gifts() {
         <FontAwesomeIcon icon={faEnvelope} />
         <h1>- Regalo o Sobre - </h1>
       </div>
-      <div className="entrance">
-        <h2>Entrada</h2>
-        <h3>Te invito a ser parte de mi fiesta</h3>
-        <div className="info-entrance">
-          <h3>Adultos: $4000</h3>
-          <h3>Menores de 10 años no pagan</h3>
-        </div>
-      </div>
       <div className="data">
         <button onClick={toggleData}>Ver datos</button>
         <animated.div style={dataAnimation}>
